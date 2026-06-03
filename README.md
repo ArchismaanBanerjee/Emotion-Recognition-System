@@ -27,6 +27,9 @@ A deep learning-based facial emotion recognition system using CNN, Mini-XCEPTION
 
 This project uses the FER2013 facial expression dataset.
 
+Dataset Source:
+https://www.kaggle.com/datasets/msambare/fer2013
+
 The dataset contains facial images categorized into seven emotions:
 
 * Angry

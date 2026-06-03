@@ -1,74 +1,105 @@
-\# Real-Time Facial Emotion Recognition
+# Real-Time Facial Emotion Recognition
 
+A deep learning-based facial emotion recognition system using CNN, Mini-XCEPTION, OpenCV, and the FER2013 dataset.
 
+## Demo
 
-A deep learning-based facial emotion recognition system using CNN, Mini-XCEPTION, OpenCV and the FER2013 dataset.
+![Emotion Detection](screenshots/happy.png)
 
+## Features
 
+* Real-time emotion detection using webcam
+* Face detection using Haar Cascades
+* CNN-based emotion classification
+* Trained on FER2013 dataset
 
-\## Features
+## Emotions Detected
 
+* Angry
+* Disgust
+* Fear
+* Happy
+* Sad
+* Surprise
+* Neutral
 
+## Dataset
 
-\- Real-time emotion detection using webcam
+This project uses the FER2013 facial expression dataset.
 
-\- Face detection using Haar Cascades
+The dataset contains facial images categorized into seven emotions:
 
-\- CNN-based emotion classification
+* Angry
+* Disgust
+* Fear
+* Happy
+* Sad
+* Surprise
+* Neutral
 
-\- Trained on FER2013 dataset
+The dataset is not included in this repository due to size limitations.
 
+## Technologies
 
+* Python
+* TensorFlow / Keras
+* OpenCV
+* NumPy
 
-\## Emotions Detected
+## Installation
 
-
-
-\- Angry
-
-\- Disgust
-
-\- Fear
-
-\- Happy
-
-\- Sad
-
-\- Surprise
-
-\- Neutral
-
-
-
-\## Technologies
-
-
-
-\- Python
-
-\- TensorFlow / Keras
-
-\- OpenCV
-
-\- NumPy
-
-
-
-\## Run
-
-
+Clone the repository:
 
 ```bash
-
-python real\_time\_video.py
-
+git clone https://github.com/ArchismaanBanerjee/Emotion-Recognition-System.git
 ```
 
+Install required libraries:
 
+```bash
+pip install tensorflow keras opencv-python numpy pandas matplotlib
+```
 
-\## Author
+## Run
 
+```bash
+python real_time_video.py
+```
 
+## Results
+
+* The model achieves approximately 66% validation accuracy on the FER2013 dataset.
+* The system performs real-time emotion recognition using webcam input.
+
+## Future Improvements
+
+* Improve model accuracy
+* Detect multiple faces simultaneously
+* Deploy as a web application
+* Add emotion analytics dashboard
+
+## Project Structure
+
+```text
+Emotion-Recognition-System/
+│
+├── haarcascade_files/
+├── models/
+├── screenshots/
+├── load_and_process.py
+├── train_emotion_classifier.py
+├── real_time_video.py
+├── Report.pdf
+├── Presentation.pdf
+└── README.md
+```
+
+## Author
 
 Archismaan Banerjee
 
+GitHub:
+https://github.com/ArchismaanBanerjee
+
+```
+```
